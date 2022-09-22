@@ -10,5 +10,11 @@ public class SpringBootCrudApplication {
 		SpringApplication.run(SpringBootCrudApplication.class, args);
 	
 	}
+	@RequestMapping("/")
+	String sayHello() {
+		System.out.println("Hello mysql logs test===>");
+		System.out.println("welcome to webapp+mysql");
+
+		return "Hello  azure cloud World logs !!!!!!!";
 
 }
